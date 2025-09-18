@@ -108,7 +108,7 @@ header .subtitle {
 .contact .logo {
     max-width: 150px; /* Adjust logo size as needed */
     height: auto;
-    margin-bottom: 5px; /* Reduced from 10px to lessen space */
+    margin-bottom: 1.25px; /* Reduced from 5px to 1.25px (1/4 of original space) */
 }
 
 .contact h2 {
@@ -121,6 +121,15 @@ header .subtitle {
 .contact p {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 5px 0;
+}
+
+.contact p a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact p a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
