@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Georgia', serif;
+    font-family: 'Source Sans Pro', sans-serif; /* Default body font */
 }
 
 .container {
@@ -36,13 +36,53 @@ header, .donation, .contact {
     z-index: 2;
 }
 
+header {
+    margin-top: 20px;
+}
+
+header .logo {
+    max-width: 150px; /* Adjust logo size as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
 header h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
     font-size: 48px;
-    margin: 50px 20px;
+    margin: 10px 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+header .subtitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 20px 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.donation {
+    margin: 20px 0;
+}
+
+.donation h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.donation-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
 .donate-button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
     display: inline-block;
     padding: 15px 30px;
     background-color: #4CAF50; /* Green to evoke nature */
@@ -50,12 +90,18 @@ header h1 {
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
-    margin: 20px;
     transition: background-color 0.3s;
 }
 
 .donate-button:hover {
     background-color: #45a049;
+}
+
+.check-note {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 15px 20px;
+    max-width: 600px;
 }
 
 .contact {
@@ -66,21 +112,36 @@ header h1 {
 }
 
 .contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
     font-size: 24px;
     margin-bottom: 10px;
 }
 
 .contact p {
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 5px 0;
 }
 
 @media (max-width: 768px) {
+    header .logo {
+        max-width: 100px;
+    }
     header h1 {
         font-size: 36px;
+    }
+    header .subtitle {
+        font-size: 16px;
+    }
+    .donation h2 {
+        font-size: 20px;
     }
     .donate-button {
         font-size: 16px;
         padding: 10px 20px;
+    }
+    .check-note {
+        font-size: 14px;
     }
     .contact h2 {
         font-size: 20px;
