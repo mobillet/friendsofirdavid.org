@@ -63,7 +63,7 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 1.8rem;
-    margin-bottom: 15px;
+    margin-bottom: 5px; /* Reduced for minimal spacing */
 }
 
 .donation-buttons {
@@ -102,19 +102,15 @@ h2 {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+    max-width: 400px; /* Narrowed to cover less background */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact .logo {
     max-width: 150px;
     height: auto;
-    margin-bottom: 20px;
-}
-
-.contact h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 1.8rem;
-    margin-bottom: 15px;
+    margin-bottom: 2px; /* Minimal spacing between logo and address */
 }
 
 .contact p {
@@ -162,6 +158,9 @@ h2 {
     }
     .logo {
         max-width: 120px;
+    }
+    .contact {
+        max-width: 300px; /* Narrower on mobile */
     }
     .container {
         padding-bottom: 20px;
