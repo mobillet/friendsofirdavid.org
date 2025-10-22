@@ -50,7 +50,7 @@ h1 {
     font-weight: 400;
     font-size: 1.1rem;
     max-width: 800px;
-    margin: 0 auto 20px;
+    margin: -32px 0 auto 20px;
     padding: 0 10px;
     line-height: 1.2; /* Adjusted for single spacing between lines */
 }
@@ -179,4 +179,5 @@ h2 {
         padding: 10px;
     }
 }
+
 
