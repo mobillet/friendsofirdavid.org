@@ -52,11 +52,12 @@ h1 {
     max-width: 800px;
     margin: 0 auto 20px;
     padding: 0 10px;
+    line-height: 1.2; /* Adjusted for single spacing between lines */
 }
 
 .intro, .check-note {
     font-size: 1rem;
-    margin: 10px 0;
+    margin: 5px 0; /* Reduced from 10px to single-space the check-note lines */
 }
 
 h2 {
@@ -114,7 +115,7 @@ h2 {
 .contact .logo {
     max-width: 150px;
     height: auto;
-    margin-bottom: 0; /* Reduced to eliminate excessive space */
+    margin-bottom: 0;
 }
 
 .contact p {
@@ -131,7 +132,8 @@ h2 {
 }
 
 .learn-more {
-    font-size: 0.9rem;
+    font-size: 1rem; /* Matched to .check-note */
+    font-family: 'Source Sans Pro', sans-serif; /* Matched to .check-note */
     color: #ccc;
     margin: 10px 0;
     text-align: center;
