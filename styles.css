@@ -132,15 +132,15 @@ h2 {
 }
 
 .learn-more {
-    font-size: 1rem; /* Matched to .check-note */
-    font-family: 'Source Sans Pro', sans-serif; /* Matched to .check-note */
-    color: #ccc;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff; /* Changed from #ccc to match .check-note white */
     margin: 10px 0;
     text-align: center;
 }
 
 .learn-more a {
-    color: #ccc;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -179,3 +179,4 @@ h2 {
         padding: 10px;
     }
 }
+
