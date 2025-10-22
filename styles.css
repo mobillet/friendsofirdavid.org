@@ -38,12 +38,6 @@ header {
     padding-top: 40px;
 }
 
-.logo {
-    max-width: 25px;
-    height: auto;
-    margin-bottom: 20px;
-}
-
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -84,7 +78,7 @@ h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     padding: 12px 25px;
-    background-color: #4a704c; /* Darker green for contrast */
+    background-color: #4a704c;
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
@@ -101,6 +95,26 @@ h2 {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.contact {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.contact .logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
 }
 
 .contact p {
@@ -153,5 +167,3 @@ h2 {
         padding-bottom: 20px;
     }
 }
-
-
