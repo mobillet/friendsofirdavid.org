@@ -63,7 +63,7 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 1.8rem;
-    margin-bottom: 5px; /* Reduced for minimal spacing */
+    margin-bottom: 5px;
 }
 
 .donation-buttons {
@@ -98,19 +98,23 @@ h2 {
 }
 
 .contact {
-    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    max-width: 400px; /* Narrowed to cover less background */
+    margin-bottom: 10px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.contact-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .contact .logo {
     max-width: 150px;
     height: auto;
-    margin-bottom: 2px; /* Minimal spacing between logo and address */
+    margin-bottom: 0; /* Reduced to eliminate excessive space */
 }
 
 .contact p {
@@ -142,6 +146,13 @@ h2 {
     text-decoration: underline;
 }
 
+.charity-info {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin: 5px 0;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;
@@ -160,9 +171,9 @@ h2 {
         max-width: 120px;
     }
     .contact {
-        max-width: 300px; /* Narrower on mobile */
+        max-width: 300px;
     }
-    .container {
-        padding-bottom: 20px;
+    .contact-content {
+        padding: 10px;
     }
 }
