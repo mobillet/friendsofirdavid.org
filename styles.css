@@ -39,7 +39,7 @@ header {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 75px;
     height: auto;
     margin-bottom: 20px;
 }
@@ -153,3 +153,4 @@ h2 {
         padding-bottom: 20px;
     }
 }
+
